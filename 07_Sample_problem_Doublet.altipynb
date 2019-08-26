@@ -279,7 +279,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+   "execution_count": 37,
    "metadata": {},
    "outputs": [
     {
@@ -321,7 +321,7 @@
    "source": [
     "Now we want to calculate and plot the **electric power** provided by the geothermal power plant according to\n",
     "$$ P= \\Delta T\\, \\rho c_p\\,\\dot{V}$$\n",
-    "For this, we need to set some values: use 998 kg m$^{-3}$ for density and 4179 J kg$^{-3}$ for secific heat capacity of the produced fluid. For $\\Delta T$, we assume a constant injection temperature of 80°C.\n",
+    "For this, we need to set some values: use 998 kg m$^{-3}$ for density and 4179 J kg$^{-3}$ for specific heat capacity of the produced fluid. For $\\Delta T$, we assume a constant injection temperature of 80°C.\n",
     "\n",
     "Furthermore, we assume an efficiency of 0.1 and a *parasitic power* of 0.5 MW (used by the systems itself, mainly for the pumps). \n"
    ]
@@ -449,13 +449,6 @@
     "\n",
     "plt.grid(True)\n"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
   },
   {
    "cell_type": "code",
